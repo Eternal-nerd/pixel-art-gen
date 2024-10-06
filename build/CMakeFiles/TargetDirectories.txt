@@ -1,0 +1,4 @@
+/home/skinny/Projects/pixel-art-gen/build/CMakeFiles/pixel-art-gen.dir
+/home/skinny/Projects/pixel-art-gen/build/CMakeFiles/run.dir
+/home/skinny/Projects/pixel-art-gen/build/CMakeFiles/edit_cache.dir
+/home/skinny/Projects/pixel-art-gen/build/CMakeFiles/rebuild_cache.dir

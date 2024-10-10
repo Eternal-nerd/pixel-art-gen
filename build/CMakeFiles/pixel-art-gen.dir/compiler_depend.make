@@ -195,12 +195,75 @@ CMakeFiles/pixel-art-gen.dir/src/main.cpp.o: /home/skinny/Projects/pixel-art-gen
   /usr/include/c++/12/bits/codecvt.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
-  /usr/include/c++/12/bits/fstream.tcc
+  /usr/include/c++/12/bits/fstream.tcc \
+  /usr/include/c++/12/filesystem \
+  /usr/include/c++/12/bits/fs_fwd.h \
+  /usr/include/c++/12/bits/chrono.h \
+  /usr/include/c++/12/ratio \
+  /usr/include/c++/12/limits \
+  /usr/include/c++/12/ctime \
+  /usr/include/c++/12/bits/parse_numbers.h \
+  /usr/include/c++/12/bits/fs_path.h \
+  /usr/include/c++/12/locale \
+  /usr/include/c++/12/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/12/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/12/bits/locale_conv.h \
+  /usr/include/c++/12/iomanip \
+  /usr/include/c++/12/bits/quoted_string.h \
+  /usr/include/c++/12/sstream \
+  /usr/include/c++/12/bits/sstream.tcc \
+  /usr/include/c++/12/codecvt \
+  /usr/include/c++/12/ext/concurrence.h \
+  /usr/include/c++/12/bits/shared_ptr.h \
+  /usr/include/c++/12/bits/shared_ptr_base.h \
+  /usr/include/c++/12/bits/allocated_ptr.h \
+  /usr/include/c++/12/bits/unique_ptr.h \
+  /usr/include/c++/12/tuple \
+  /usr/include/c++/12/bits/uses_allocator.h \
+  /usr/include/c++/12/ext/aligned_buffer.h \
+  /usr/include/c++/12/bit \
+  /usr/include/c++/12/bits/align.h \
+  /usr/include/c++/12/bits/stl_uninitialized.h \
+  /usr/include/c++/12/bits/fs_dir.h \
+  /usr/include/c++/12/bits/fs_ops.h
 
+
+/usr/include/c++/12/bits/stl_uninitialized.h:
+
+/usr/include/c++/12/bits/align.h:
+
+/usr/include/c++/12/bit:
+
+/usr/include/c++/12/ext/aligned_buffer.h:
+
+/usr/include/c++/12/bits/allocated_ptr.h:
+
+/usr/include/c++/12/bits/shared_ptr_base.h:
+
+/usr/include/c++/12/sstream:
+
+/usr/include/c++/12/bits/locale_conv.h:
+
+/usr/include/c++/12/bits/locale_facets_nonio.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h:
+
+/usr/include/c++/12/bits/locale_facets_nonio.h:
+
+/usr/include/c++/12/limits:
+
+/usr/include/c++/12/bits/chrono.h:
 
 /usr/include/c++/12/bits/fstream.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h:
+
+/usr/include/c++/12/bits/fs_path.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h:
 
@@ -208,17 +271,25 @@ CMakeFiles/pixel-art-gen.dir/src/main.cpp.o: /home/skinny/Projects/pixel-art-gen
 
 /usr/include/c++/12/fstream:
 
+/usr/include/c++/12/ctime:
+
 /usr/include/c++/12/bits/basic_ios.tcc:
 
 /usr/include/c++/12/bits/streambuf_iterator.h:
 
+/usr/include/c++/12/bits/unique_ptr.h:
+
 /usr/include/c++/12/cwctype:
+
+/usr/include/c++/12/tuple:
 
 /usr/include/c++/12/bits/ostream.tcc:
 
 /usr/include/c++/12/bits/locale_facets.h:
 
 /usr/include/c++/12/bits/basic_ios.h:
+
+/usr/include/c++/12/bits/parse_numbers.h:
 
 /usr/include/c++/12/bits/streambuf.tcc:
 
@@ -248,9 +319,13 @@ CMakeFiles/pixel-art-gen.dir/src/main.cpp.o: /home/skinny/Projects/pixel-art-gen
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
+/usr/include/c++/12/locale:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/12/ext/concurrence.h:
 
 /usr/include/endian.h:
 
@@ -259,6 +334,8 @@ CMakeFiles/pixel-art-gen.dir/src/main.cpp.o: /home/skinny/Projects/pixel-art-gen
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/c++/12/bits/sstream.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
@@ -282,6 +359,8 @@ CMakeFiles/pixel-art-gen.dir/src/main.cpp.o: /home/skinny/Projects/pixel-art-gen
 
 /usr/include/c++/12/ext/alloc_traits.h:
 
+/usr/include/c++/12/bits/shared_ptr.h:
+
 /usr/include/c++/12/initializer_list:
 
 /usr/include/c++/12/debug/debug.h:
@@ -293,6 +372,8 @@ CMakeFiles/pixel-art-gen.dir/src/main.cpp.o: /home/skinny/Projects/pixel-art-gen
 /usr/include/c++/12/bits/nested_exception.h:
 
 /usr/include/c++/12/bits/hash_bytes.h:
+
+/usr/include/c++/12/iomanip:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
@@ -334,9 +415,13 @@ CMakeFiles/pixel-art-gen.dir/src/main.cpp.o: /home/skinny/Projects/pixel-art-gen
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
+/usr/include/c++/12/bits/quoted_string.h:
+
 /usr/include/c++/12/new:
 
 /usr/include/c++/12/exception:
+
+/usr/include/c++/12/codecvt:
 
 /usr/include/c++/12/bits/std_abs.h:
 
@@ -382,6 +467,8 @@ CMakeFiles/pixel-art-gen.dir/src/main.cpp.o: /home/skinny/Projects/pixel-art-gen
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h:
 
+/usr/include/c++/12/filesystem:
+
 /usr/include/c++/12/bits/stl_pair.h:
 
 /usr/include/features.h:
@@ -389,6 +476,8 @@ CMakeFiles/pixel-art-gen.dir/src/main.cpp.o: /home/skinny/Projects/pixel-art-gen
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/c++/12/bits/uses_allocator.h:
 
 /usr/include/c++/12/bits/stl_iterator_base_funcs.h:
 
@@ -444,9 +533,13 @@ CMakeFiles/pixel-art-gen.dir/src/main.cpp.o: /home/skinny/Projects/pixel-art-gen
 
 /usr/include/c++/12/iosfwd:
 
+/usr/include/c++/12/bits/fs_fwd.h:
+
 /usr/include/c++/12/bits/memoryfwd.h:
 
 /usr/include/c++/12/bits/ios_base.h:
+
+/usr/include/c++/12/bits/fs_dir.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -455,6 +548,8 @@ CMakeFiles/pixel-art-gen.dir/src/main.cpp.o: /home/skinny/Projects/pixel-art-gen
 /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h:
 
 /usr/include/wchar.h:
+
+/usr/include/c++/12/bits/fs_ops.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
@@ -498,6 +593,8 @@ CMakeFiles/pixel-art-gen.dir/src/main.cpp.o: /home/skinny/Projects/pixel-art-gen
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h:
 
+/usr/include/libintl.h:
+
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h:
@@ -505,6 +602,8 @@ CMakeFiles/pixel-art-gen.dir/src/main.cpp.o: /home/skinny/Projects/pixel-art-gen
 /usr/include/c++/12/iostream:
 
 /usr/include/sched.h:
+
+/usr/include/c++/12/ratio:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 

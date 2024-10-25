@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/skinny/Projects/pixel-art-gen/src/image_buffer.cpp" "CMakeFiles/pixel-art-gen.dir/src/image_buffer.cpp.o" "gcc" "CMakeFiles/pixel-art-gen.dir/src/image_buffer.cpp.o.d"
   "/home/skinny/Projects/pixel-art-gen/src/main.cpp" "CMakeFiles/pixel-art-gen.dir/src/main.cpp.o" "gcc" "CMakeFiles/pixel-art-gen.dir/src/main.cpp.o.d"
   )
 

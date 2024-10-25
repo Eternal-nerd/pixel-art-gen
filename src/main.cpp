@@ -2,6 +2,8 @@
 #include <fstream>
 #include <filesystem>
 
+#include "image_buffer.h"
+
 const int image_width = 256;
 const int image_height = 256;
 

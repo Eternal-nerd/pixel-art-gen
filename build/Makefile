@@ -142,6 +142,30 @@ run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
+src/image_buffer.o: src/image_buffer.cpp.o
+.PHONY : src/image_buffer.o
+
+# target to build an object file
+src/image_buffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pixel-art-gen.dir/build.make CMakeFiles/pixel-art-gen.dir/src/image_buffer.cpp.o
+.PHONY : src/image_buffer.cpp.o
+
+src/image_buffer.i: src/image_buffer.cpp.i
+.PHONY : src/image_buffer.i
+
+# target to preprocess a source file
+src/image_buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pixel-art-gen.dir/build.make CMakeFiles/pixel-art-gen.dir/src/image_buffer.cpp.i
+.PHONY : src/image_buffer.cpp.i
+
+src/image_buffer.s: src/image_buffer.cpp.s
+.PHONY : src/image_buffer.s
+
+# target to generate assembly for a file
+src/image_buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pixel-art-gen.dir/build.make CMakeFiles/pixel-art-gen.dir/src/image_buffer.cpp.s
+.PHONY : src/image_buffer.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -176,6 +200,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... pixel-art-gen"
+	@echo "... src/image_buffer.o"
+	@echo "... src/image_buffer.i"
+	@echo "... src/image_buffer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

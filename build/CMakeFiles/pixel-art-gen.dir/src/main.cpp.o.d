@@ -176,4 +176,5 @@ CMakeFiles/pixel-art-gen.dir/src/main.cpp.o: \
  /usr/include/c++/12/ext/aligned_buffer.h /usr/include/c++/12/bit \
  /usr/include/c++/12/bits/align.h \
  /usr/include/c++/12/bits/stl_uninitialized.h \
- /usr/include/c++/12/bits/fs_dir.h /usr/include/c++/12/bits/fs_ops.h
+ /usr/include/c++/12/bits/fs_dir.h /usr/include/c++/12/bits/fs_ops.h \
+ /home/skinny/Projects/pixel-art-gen/src/image_buffer.h

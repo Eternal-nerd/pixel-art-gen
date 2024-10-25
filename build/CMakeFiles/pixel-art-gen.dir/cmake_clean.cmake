@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "/home/skinny/Projects/pixel-art-gen/bin/pixel-art-gen"
   "/home/skinny/Projects/pixel-art-gen/bin/pixel-art-gen.pdb"
+  "CMakeFiles/pixel-art-gen.dir/src/image_buffer.cpp.o"
+  "CMakeFiles/pixel-art-gen.dir/src/image_buffer.cpp.o.d"
   "CMakeFiles/pixel-art-gen.dir/src/main.cpp.o"
   "CMakeFiles/pixel-art-gen.dir/src/main.cpp.o.d"
 )

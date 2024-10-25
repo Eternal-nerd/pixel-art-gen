@@ -1,5 +1,9 @@
 #pragma once
 
+struct color {
+	int r;
+};
+
 class imageBuffer {
 
 	public:
@@ -8,6 +12,6 @@ class imageBuffer {
 
 
 	private:
-
+		//TODO: Add dynamic 2d array to hold colors (array ptr using new)
 
 };

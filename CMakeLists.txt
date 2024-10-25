@@ -10,10 +10,12 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 # source files
 set(SOURCES
   src/main.cpp
+  src/image_buffer.cpp
 )
 
 # headers
 set(HEADERS
+	src/image_buffer.h
 )
 
 # add executable

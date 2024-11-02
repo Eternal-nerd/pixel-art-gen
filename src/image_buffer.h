@@ -1,19 +1,24 @@
 #pragma once
 
+#include <vector>
+#include <string>
+
 #include "color.h"
 
 class imageBuffer {
 
 	public:
 		// constructor
-		imageBuffer(int width, int height);
+		imageBuffer(int w, int h);
 		~imageBuffer();
 
+		void writeToPPM(const std::string& filename);
+
 	private:
-		//TODO: Add dynamic 2d array to hold colors (array ptr using new)
-		//color** grid;	
-		int w;
-		int h;
+		std::vector<std::vector<color>> grid;
+
+		int width;
+		int height;
 		
 
 };

@@ -7,14 +7,14 @@
 const int image_width = 256;
 const int image_height = 256;
 
-const char* ppm_color(int r, int g, int b) {
-	return "";
-}
-
 // PPM file LC = width * height + 3 (header)
 
 int main() {
 	std::cout << "Starting.\n";
+
+	imageBuffer image(image_width, image_height);
+
+	//return 0;
 
 	std::ofstream image_file("../image.ppm");
 	if (!image_file) {

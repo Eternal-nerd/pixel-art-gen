@@ -16,6 +16,7 @@ set(SOURCES
 # headers
 set(HEADERS
 	src/image_buffer.h
+	src/color.h
 )
 
 # add executable

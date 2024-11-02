@@ -1,17 +1,19 @@
 #pragma once
 
-struct color {
-	int r;
-};
+#include "color.h"
 
 class imageBuffer {
 
 	public:
-		// 
-		imageBuffer(int width, int height, int RGBDepth);
-
+		// constructor
+		imageBuffer(int width, int height);
+		~imageBuffer();
 
 	private:
 		//TODO: Add dynamic 2d array to hold colors (array ptr using new)
+		//color** grid;	
+		int w;
+		int h;
+		
 
 };
